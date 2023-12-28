@@ -1,6 +1,6 @@
 import numpy as np
 
-from utils import euclidean_distance
+from source.utils import euclidean_distance
 
 
 class Neuron(object):

@@ -1,4 +1,4 @@
-import Tkinter as tk
+import tkinter as tk
 import numpy as np
 
 
@@ -6,7 +6,7 @@ class SomCanvas(tk.Frame):
 
     def __init__(self, parent, title, width, height, *args, **kwargs):
         tk.Frame.__init__(self, parent, *args, **kwargs)
-        self.canvas = tk.Canvas(self, height=height, width=width, bg='white')
+        self.canvas = tk.Canvas(self, height=height, width=width, bg='black')
         self.title = tk.Label(self, text=title)
         self.title.grid()
         self.canvas.grid(padx=5, pady=5)

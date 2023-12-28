@@ -1,6 +1,6 @@
 import numpy as np
-from neuron import Neuron
-from utils import euclidean_distance, get_neighbor_indices
+from source.neuron import Neuron
+from source.utils import euclidean_distance, get_neighbor_indices
 
 
 class SelfOrganizingMap(object):

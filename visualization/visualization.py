@@ -1,11 +1,11 @@
-import Tkinter as tk
-import tkMessageBox
-from parameters import Parameters
-from speedslider import SpeedSlider
-from algorithmvariables import AlgorithmVariables
-from colorlegend import ColorLegend
-from canvas import MapGrid, FeatureSpaceGrid
-from algorithmstepslegend import AlgorithmStepsLegend
+import tkinter as tk
+from tkinter import messagebox as tkMessageBox
+from visualization.parameters import Parameters
+from visualization.speedslider import SpeedSlider
+from visualization.algorithmvariables import AlgorithmVariables
+from visualization.colorlegend import ColorLegend
+from visualization.canvas import MapGrid, FeatureSpaceGrid
+from visualization.algorithmstepslegend import AlgorithmStepsLegend
 
 
 class SomVisualization(tk.Tk):
